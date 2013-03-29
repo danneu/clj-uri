@@ -1,4 +1,4 @@
-(defproject clj-uri "0.1.0-SNAPSHOT"
+(defproject clj-uri "0.1.0"
   :description "Parse URI strings into URI components. (wraps java.net.URI)"
   :url "http://github.com/danneu/clj-uri"
   :license {:name "Eclipse Public License"
