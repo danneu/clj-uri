@@ -21,6 +21,7 @@ A Clojure library for parsing URI strings into their URI components.
 (uri/host uri)            ;=> "my.example.com"
 (uri/user-info uri)       ;=> "danneu:secret"
 (uri/user-info-map uri)   ;=> {:user "danneu" :password "secret"
+(uri/fragment uri)        ;=> "yolo"
 (uri/absolute? "/me.php") ;=> false
 ; and more...
 ```
