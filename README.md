@@ -4,6 +4,12 @@ A Clojure library for parsing URI strings into their URI components.
 
 `clj-uri` is a Clojure wrapper around `java.net.URI` that adds some aditional conveniences.
 
+## Install
+
+Add to `project.clj` dependencies:
+
+    [clj-uri "0.1.0"]
+
 ## Usage
 
 ``` clojure
